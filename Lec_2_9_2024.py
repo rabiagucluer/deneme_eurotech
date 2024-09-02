@@ -1,4 +1,5 @@
 #Data Structures
+from typing import Tuple
 
 #Strings
 
@@ -113,5 +114,8 @@ sorted(my_list, reverse = True)
 
 reversed_list = my_list[::-1] #overwrite etmedi
 my_list.reverse()  #overwrite etti
+
+#Tuple
+#Set
 
 
