@@ -1,0 +1,1 @@
+#bu derste git komutlarını öğreniyoruz
