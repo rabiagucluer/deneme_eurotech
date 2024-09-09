@@ -50,7 +50,7 @@ for value in dict_2.values():
     #print(dict_2[key])
     if value==3:
         print(dict_2[key])
- #unhashable type error konusuna bak!
+###unhashable type error konusuna bak!
 key
 type(key)
 
