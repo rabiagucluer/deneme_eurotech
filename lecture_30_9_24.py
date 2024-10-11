@@ -1,4 +1,6 @@
 ### OOP: Object Oriented Programming  #####
+import os.path
+
 
 def calculate_area(radius):
     return 3.14 * radius ** 2
@@ -120,5 +122,17 @@ class Cat:
 
 
 
+# Modülleri import icin yapilmasi gereken adimlar.
+# Cünkü python default dosyalarindan modül import eder ama biz modülün oldugu path i eklersek python oraya da bakmak zorunda kalir.
+import sys
+sys.path
+import os
 
+os.getcwd() #modele_dosyasi
+
+os.path.join(os.getcwd(), "C:/Users/User/git/deneme_eurotech/lecture_30_9_24.py")
+
+path_to_add
+
+sys.path.append(path_to_add)
 
